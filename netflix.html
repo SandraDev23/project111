@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+
+        }
+        #logo{
+        margin-top: 15px;    
+        height: 50px;
+        margin-left: 25px;
+        } 
+        #first{ 
+            width: 100%;
+        }
+        #two{
+            margin-top: 25px;
+          float: right;
+          margin-right: 25px;
+
+        }
+
+        
+        select{
+            background-color: black;
+            color: white;
+            border-color: white;
+            width: 130px;
+            height: 35px;
+            border-radius:5px ;
+            
+            
+
+        }
+        #button1{
+            background-color: red;
+            color: white;
+            border-color: none;
+            border-radius: 5px;
+            width: 100px;
+            height: 35px;
+           
+        }
+        option{
+            background-color: white;
+        }
+        
+   
+   h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-top: 180px;
+    padding-left: 150px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+   }
+   h3{
+    font-size: x-large;
+    padding-top: 10px;
+    padding-left: 150px;
+    color: white;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+   p{
+    padding-top: 45px;
+    padding-left: 150px;
+    font-size: 15px;
+    color: rgb(255, 249, 249);
+   }
+ #pp{
+    padding-top: 45px;
+    padding-left: 150px;
+    font-size: 15px;
+    color:  rgb(124, 117, 117);
+   }
+input{
+    margin-top: 15px;
+    margin-left: 150px;
+    background-color:black;
+    color: white;
+    width: 550px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+#button2{
+    background-color: red;
+            color: white;
+            border-color: none;
+            border-radius: 5px;
+            width: 200px;
+            height: 55px;
+            margin-top: 15px;
+            margin-left: 150px;
+}
+b{
+    font-size: 20px;
+}
+#bg{
+    background-image: url(./netback.jpeg);
+    height: 100vh;
+}
+#part2{
+    background-color: black;
+
+}
+h2{
+    padding-left: 150px;
+    color: white;
+}
+#set1234{
+    display: flex;   
+}
+#set1{
+    background-color:rgb(128, 0, 55);
+    width: 300px;
+     margin-left: 150px;
+     border-radius: 20px;
+}
+#set2{
+    margin-left: 20px;
+    background-color:rgb(128, 0, 55);
+    width: 300px;
+    border-radius: 20px;
+}
+#set3{
+    background-color:rgb(128, 0, 55);
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#set4{
+    background-color:rgb(128, 0, 55);
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+h5{
+   color: white;
+   font-size: 22px;
+   padding-left: 30px;
+}
+.pclass{
+  color: white;
+  font-size:18px ;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+h6{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+}
+#sel{
+    padding-left: 150px;
+}
+#trend{
+    display: flex;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-left: 150px;
+}
+#trend img{
+    margin-right: 40px;
+    border-radius: 20px;
+}
+#trend p{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -150px;
+    left: -175px;
+    -webkit-text-stroke: 2px rgb(255, 250, 250);
+}
+#trend #re1{
+ background-color: red;
+ color: white;
+ font-size: 22px;
+ width: 150px;
+ position: relative;
+ top: -190px;
+left: 20px;
+ 
+}
+#trend #re2{
+ background-color: red;
+ color: white;
+ font-size: 22px;
+ width: 150px;
+ position: relative;
+ top: -190px;
+left: 20px;
+ 
+}
+#trend #re4{
+ background-color: red;
+ color: white;
+ font-size: 22px;
+ width: 150px;
+ position: relative;
+ top: -190px;
+left: 20px;
+ 
+}
+#all{
+    display: flex; 
+    height: 200px;  
+}
+#jo1{
+    background-image: linear-gradient(rgb(43, 63, 151), rgb(144, 19, 86));
+    width: 300px;
+     margin-left: 150px;
+     border-radius: 20px;
+}
+#jo2{
+    margin-left: 20px;
+    background-image: linear-gradient(rgb(43, 63, 151), rgb(144, 19, 86));
+    width: 300px;
+    border-radius: 20px;
+}
+#jo3{
+    background-image: linear-gradient(rgb(43, 63, 151), rgb(144, 19, 86));
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#jo4{
+    background-image: linear-gradient(rgb(43, 63, 151), rgb(144, 19, 86));
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+h5{
+   color: white;
+   font-size: 37px;
+   padding-left: 30px;
+}
+#qnmain{
+    margin-left: 150px;
+    
+}
+#qn1{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 2px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 70px;
+}
+#qn2{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 2px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 70px;
+}
+#qn3{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 2px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 70px;
+}
+#qn4{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 2px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 70px;
+}
+#qn5{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 2px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 70px;
+}
+#qn6{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    padding: 2px;
+    margin-bottom: 30px;
+    width: 900px;
+    height: 70px;
+}
+#em{
+    margin-top: 15px;
+    margin-left: 150px;
+    background-color:black;
+    color: white;
+    width: 700px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+#button3{
+    background-color: red;
+            color: white;
+            border-color: none;
+            border-radius: 5px;
+            width: 200px;
+            height: 55px;
+            
+}
+#qnmain h4{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+footer p{
+    color: rgb(124, 117, 117);
+}
+footer a{
+    color: rgb(124, 117, 117);
+    display: block;
+}
+footer div{
+    margin-left: 80px;
+    margin-right: 30px;
+
+}
+#ft{
+    display:flex;
+}
+    </style>
+</head>
+<body>
+    <div id="bg">
+ <div id="first">
+         <img id="logo" src="./netflix_logo-removebg-preview.png" alt="">
+    <div id="two">
+        <select>
+            <option>English</option>
+                <option>हिन्दी</option>
+            </select>
+            <a href="#" ><button id="button1">Sign In</button></a>
+    </div>
+ </div>
+<div id="text1">
+    <h1>Unlimited movies, <br>TV shows and more</h1>
+    <h3>Starts at ₹149. Cancel anytime.</h3>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <input type="email" placeholder="Email address"><br>
+    <a href="#" ><button id="button2" ><b>Get Started  ></b></button></a>
+</div>
+</div>
+
+<div id="part2">
+   
+    <h2>A plan to suit your needs</h2>
+    <br><br><br><br><br>
+
+    <div id="set1234">
+    <div id="set1">
+        <h5>MOBILE</h5>
+        <p class="pclass">A travel-friendly option for your mobile devices</p>
+        <h6>₹149/month</h6><br>
+    </div>
+
+    <div id="set2">
+        <h5>BASIC</h5>
+        <p class="pclass">A great way to enjoy all your favourite shows and movies on a budget.</p>
+        <h6>₹199/month</h6>
+    </div>
+
+    <div id="set3">
+        <h5>STANDARD</h5>
+        <p class="pclass">All the entertainment you love, in Full HD video quality.</p>
+        <h6>₹499/month</h6>
+    </div>
+
+    <div id="set4">
+        <h5>PREMIUM</h5>
+        <p class="pclass">A cinematic experience with the best picture and audio quality.</p>
+        <h6>₹649/month</h6>
+    </div>
+</div>
+<div>
+   <br><br><br><br> <h2>Trending Now</h2><br>
+   <div id="sel">
+   <select>
+    <option>India</option>
+        <option>Global</option>
+    </select>
+    <select>
+        <option>Movies</option>
+            <option>TV Shows</option>
+        </select></div><br><br><br><br>
+</div>
+<div id="trend">
+    <div id="p11">
+<img src="./leo.jpeg" alt=""><p>1</p>
+<div id="re1">Recently added</div>
+</div>
+<div id="p22">
+<img src="./killer.jpeg" alt=""><p>2</p>
+<div id="re2">Recently added</div>
+</div>
+<div id="p33">
+<img src="./leo.jpeg" alt=""><p>3</p></div>
+<div id="p44">
+<img src="./leo.jpeg" alt=""><p>4</p>
+<div id="re4">Recently added</div></div>
+<div id="p55">
+<img src="./killer.jpeg" alt=""><p>5</p></div>
+
+</div>
+<div id="more">
+    <h2>More reasons to join</h2><br>
+    <br><br><br><br><br>
+<div id="all">
+    <div id="jo1">
+      <h5>Stories tailored to your taste</h5>
+        <br>
+    </div>
+
+    <div id="jo2">
+        <h5>Cancel or switch plans anytime</h5>
+    </div>
+
+    <div id="jo3">
+        <h5>A place just for kids</h5>  
+    </div>
+
+    <div id="jo4">
+        <h5>For your phone, tablet, laptop, and TV</h5>
+    </div>
+</div>
+</div>
+</div>
+<br><br><br>
+<div id="qnmain">
+      
+
+<h2>Frequently Asked Questions</h2><br>
+    <br><br><br><br><br>
+<div id="qn1">
+  <h4>What is Netflix ?</h4>
+</div>
+<div id="qn2">
+    <h4>How much does Netflix cost?</h4>
+  </div>
+  <div id="qn3">
+    <h4>Where can I watch?</h4>
+  </div>
+  <div id="qn4">
+    <h4>How do I cancel?</h4>
+  </div>
+  <div id="qn5">
+    <h4>What can I watch o Netflix?</h4>
+  </div>
+  <div id="qn6">
+    <h4>Is Netflix good for kids?</h4>
+  </div></div>
+  <div>
+    <p id="pp">Ready to watch? Enter your email to create or restart your membership.</p>
+    <input id="em" type="email" placeholder="Email address">
+    <a href="#" ><button id="button3" ><b>Get Started  ></b></button></a>
+</div>
+<footer>
+    <p>Questions? Call <a href="#">000-800-919-1694</a></p><br><br>
+    <div id="ft">
+    <div >
+        <a href="#">FAQ</a>
+        <a href="#">Help Center</a>
+        <a href="#">Account</a>
+        <a href="#">Media Center</a>
+    </div>
+<div>
+    <a href="#">Investor Relations</a>
+    <a href="#">Jobs</a>
+    <a href="#">Ways to Watch</a>
+    <a href="#">Terms of Use</a>
+</div>
+<div>
+    <a href="#">Privacy</a>
+    <a href="#">Cookie Preferences</a>
+    <a href="#">Corporate Information</a>
+    <a href="#">Contact Us</a>
+</div>
+<div>
+    <a href="#">Speed Test</a>
+    <a href="#">Legal Notices</a>
+    <a href="#">Only on Netflix</a>
+</div></div>
+</footer>
+</div>
+
+</body>
+</html>
